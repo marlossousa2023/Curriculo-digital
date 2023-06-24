@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800&display=swap');@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+main{
+    position: absolute;
+    display: flex;  
+    
+}
+
+section{
+    margin-top: 45px;
+    margin-left: 48vw;
+    max-width: 400px;
+    margin-bottom: 35px;
+}
+
+img{
+    width: 200px;
+    position: relative;
+    margin: 50px 150px 20px 150px;
+}
+
+aside{
+    background-color: #03989e;
+    color: white;
+    width: 45vw;
+    height: 100%;
+    padding-left: 25px;
+    position: absolute;
+}
+
+.aside-bar{
+    list-style: none;
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+.information-list{
+    padding: 15px;
+}
+
+
+
+.localization-link{
+    margin-left: 25px;
+    margin-top: 50px;
+}
+
+
+
+#github, #linkedin, #email{
+    color: white;
+}
+
+#github, #linkedin, :visited{
+    color: purple;
+}#email
+
+#github, #linkedin, #email:hover{
+    color: blue;
+}
+
+.tech-link{
+    margin-left: 100px;
+    margin-top: 50px;
+    list-style: none;
+    font-size: 20px;    
+}
+
+.tech{
+    margin-left: 20px;
+}
+
+.contact{
+    font-weight: 500;
+    font-size: 40px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.aside-item{
+    margin-left: 20px;
+}
+.skills-link{
+    margin-top: 50px;
+    font-weight: 500;
+    font-size: 40px;
+    margin-left: 100px;
+}
+
+
+h1{
+    color: #00c4cc;
+    font-size: 38px;
+    font-weight: 800;
+}
+
+.job, .about{
+    font-size: 25px;
+    font-weight: 500;
+    max-width: 400px;
+    white-space: nowrap;
+}
+
+h5{
+    margin-top: 20px;
+}
+.freelancer, .actual-job{
+    font-size: 25px;
+}
+
+.projects{
+    margin-left: 50px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.projects-links{
+    color: black;
+}
+
+.projects-links:visited{
+    color: purple;
+}
+.projects-links:hover{
+    color: blue;
+}
+
+h3, h4, h5{
+    color: #00c4cc;
+    font-weight: 800;
+    font-size: 30px;
+}
+
